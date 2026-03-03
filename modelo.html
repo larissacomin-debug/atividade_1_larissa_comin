@@ -15,6 +15,56 @@
    font-family: system-ui,Arial,sans-serif;
    line-height: 1.5;
   }
+  .container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  .box{
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(240, 240, 255, 0.30);
+    border-radius: 12px;
+    padding: 14px;
+    margin-bottom: 12px;
+  }
+
+  h1,h2{
+    color: rgb(255,221,0);
+    margin: 0 0 8px;
+  }
+
+  .header-interno p{
+    margin: 0;
+    color: #d1d5db;
+  }
+
+  p{
+    color:aqua;
+  }
+
+  #apresentacao{
+    border-left: 8px solid rgb(255,221,0);
+  }
+
+  .nav{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+
+  .nav-link{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    background: rgb(255,221,0);
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+  }
 </style>
 </head>
 
@@ -38,31 +88,31 @@
     </nav>
 
     <main id="conteudo">
-      <div class="row" id="linha-1">
-        <section class="box-panel" id="apresentacao">
+    
+        <section class="box" id="apresentacao">
           <h2> Quem é o Batman?</h2>
           <p>
             Batman (Bruce wayne) é um personagem da DC Comics que atua como justiceiro de Gotham.Ele não tem
             sperpoderes: sua força está em <strong>treinamento</strong>,
-            <em><br>inteligência</em> e recursos (ou seja,rico).
+            <em>inteligência</em> e recursos (ou seja,rico).
           </p>
 
           <p>
             Nas Histórias, Gotham costuma representar problemas sociais reais: desigualdade, orrupção e violência
-            urbana. Muitos quadrinhos usam o Btman como <br>forma de
+            urbana. Muitos quadrinhos usam o Btman como forma de
             <strong>Crítica social</strong>, mostrando como decisões políticas, interesses econômicos, falhas nas
             insituições e o autoritarismo afetam o cotidiano das pessoas,
-            <br>especialmente nas periferias.
+            especialmente nas periferias.
           </p>
         </section>
-      </div>
+    
       <section class="box" id="galeria">
         <h2> Galeria </h2>
         <div class="gallery" id="galeria-imagens">
-          <img class="bat-img" src="batman_1.webp" alt="Batman posando" width="220" height="220">
-          <img class="bat-img" src="batman_2.jpg" alt="Batman com um taco" width="220" height="220">
-          <img class="bat-img" src="batman_3.webp" alt="Batman voando" width="220" height="220">
-        </div>
+          <img class="bat-img" src="batman_1.webp" alt="Batman posando" width="220" height="300">
+          <img class="bat-img" src="batman_2.jpg" alt="Batman com um taco" width="220" height="300">
+          <img class="bat-img" src="batman_3.webp" alt="Batman voando" width="220" height="300">
+     
       </section>
     </main>
 
